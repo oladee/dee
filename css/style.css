@@ -8,6 +8,7 @@ h1 {
   text-align: center;
   font-size: 30px;
   padding: 30px;
+  background-color: #f9fcfc;
 }
 
 .Dimeji-layout {
@@ -15,6 +16,7 @@ h1 {
   padding: 100px 20px 40px 20px;
   justify-content: space-between;
   flex-direction: row;
+  background-color: #f9fcfc;
 }
 
 .content {
@@ -29,6 +31,7 @@ h1 {
 
 .write-up {
   width: 60%;
+  margin-right: 300px;
 }
 
 .write-up h3 {
@@ -41,7 +44,7 @@ h1 {
   width: 100%;
   height: 35px;
   right: 100px;
-  bottom: 100px;
+  bottom: 15px;
 }
 
 .write-up h3::before {
@@ -59,12 +62,14 @@ h1 {
 .write-up p {
   font-size: 22px;
   margin: 18px 37px;
+  padding-top: 20px;
 }
 
 .too-much {
   display: flex;
   justify-content: center;
   padding: 40px;
+  background-color: #f9fcfc;
 }
 
 .contact-us {
@@ -74,7 +79,7 @@ h1 {
   box-shadow: -1px 10px 5px -3px rgba(217, 207, 207, 0.75);
   -webkit-box-shadow: -1px 10px 5px -3px rgba(217, 207, 207, 0.75);
   -moz-box-shadow: -1px 10px 5px -3px rgba(217, 207, 207, 0.75);
-  background-color: whitesmoke;
+  background-color: #ffffff;
 }
 
 .contact-us h3 {
@@ -109,8 +114,10 @@ h1 {
   text-align: center;
   padding: 15px;
   background-color: #004de6c2;
+  background: rgba(0, 77, 230, 0.76);
   border: unset;
   border-radius: 5px;
   color: white;
   margin-left: auto;
 }
+
